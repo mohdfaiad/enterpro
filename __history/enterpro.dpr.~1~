@@ -23,7 +23,7 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.Title := 'Enterprise PRO';
+  Application.CreateForm(TformPrincipal, formPrincipal);
   Application.CreateForm(TformPrincipal, formPrincipal);
   Application.Run;
 end.
